@@ -69,7 +69,12 @@ nav ul li button{
   background-color: white;
   padding: 20px;
   border-radius: 5px;
-  text-align: center;
-  margin-top: 50px;;
+  margin: 50px auto;
 
+}
+#section-2{
+  background-color: #f3f5f9;
+}
+#section-2 a {
+  margin:0 auto;
 }
