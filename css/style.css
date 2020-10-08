@@ -51,6 +51,7 @@ nav ul li button{
 
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 80px;
 }
 #button-create{
   background-color: #579aff;
