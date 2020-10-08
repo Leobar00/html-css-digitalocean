@@ -1,7 +1,7 @@
 
 [class*="col-"]{
 
-   border: 1px solid black; */
+   /* border: 1px solid black; */ */
 }
 body{
   font-size: 15px;
@@ -199,6 +199,7 @@ nav ul li button{
   margin:0;
 
 }
+
 .sezione-quadrata{
   background-color: white;
   padding-bottom: 4rem;
@@ -208,17 +209,14 @@ nav ul li button{
   border-radius: 2%;
 
 }
-.sezione-quadrata img{
-  padding-bottom: 2rem;
-
-}
 .sezione-quadrata a{
   display: block;
   padding-top: 2rem;
 }
-#section-7 img{
+#section-7 .spaziatura img{
   vertical-align: middle;
   width: 70%;
+  padding-bottom: 2rem;
 
 }
 #section-7 .gruppo-cerchi{
