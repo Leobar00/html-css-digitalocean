@@ -11,6 +11,15 @@ body{
   height: 80px;
   margin-bottom: 0;
 }
+.burger-menu{
+  height: 100px;
+  line-height: 100px;
+  float: right;
+
+}
+.burger-menu span{
+  color: #0046f9;
+}
 nav img{
   width: 180px;
   padding-top: 30px;
@@ -41,6 +50,15 @@ nav ul li button{
 
   background-repeat: no-repeat;
   background-size: cover;
+}
+#button-create{
+  background-color: #579aff;
+  color: white;
+
+}
+#section-1 input:last-of-type{
+  color:#6a6a6a;
+  background-color: white;
 }
 .text-property{
   color: white;
@@ -85,6 +103,7 @@ nav ul li button{
   background-color: #f3f5f9;
   padding: 20px;
 }
+
 #section-2 a {
   display: inline-block;
   padding: 10px;
@@ -259,6 +278,7 @@ footer strong{
 
 
 @media screen and (max-width:768px) {
+
   #section-3 ul > li{
     display: block;
     height: 50px;
