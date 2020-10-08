@@ -42,7 +42,8 @@ nav ul li a:hover{
 }
 nav ul li button{
   background-color: white;
-  color:#006aff;
+  color:#75aeff;
+  border: 1px solid #75aeff;
 }
 #section-1{
   background-color: #0060ff;
@@ -74,13 +75,15 @@ nav ul li button{
   font-size: 5rem;
 }
 
-#section-1 .burger-menu {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: 100px;
+#section-1 h2{
+  color: #0046f9;
+  font-weight: 600;
 
 }
-
+#section-1 h2:first-of-type{
+  color: #031b4e;
+  font-weight: 600;
+}
 #section-1 input {
   margin:10px auto;
   width: 98%;
