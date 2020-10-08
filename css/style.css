@@ -134,7 +134,7 @@ nav ul li button{
   margin: 0 30px;
   width: 4%;
 }
-#section-4 img:last-of-type{
+  #section-4 img:last-of-type{
   margin: 0 30px;
   width: 4%;
 }
@@ -166,10 +166,11 @@ nav ul li button{
 }
 #section-6{
   background-color: #0028a4;
+  padding-bottom: 50px;
 }
 #section-6 h1{
   color: white;
-  margin-bottom: 4rem ;
+  margin-bottom: 2rem ;
   padding-top: 6rem;
 }
 #section-6 .text-grey{
@@ -184,11 +185,35 @@ nav ul li button{
 }
 .bb-white{
   border-bottom: 1px solid white;
-  padding: 2px;
-  height: 20px;
-  line-height: 20px;
-  margin-bottom: 0;
+
 }
+.all-table{
+  padding: 2px;
+  height: 4rem;
+  line-height: 4rem;
+
+}
+#section-7{
+  background-color: #f3f5f9;
+
+}
+.sezione-quadrata{
+  background-color: white;
+  padding: 1rem;
+  width: 70%;
+  display: inline-block;
+
+}
+.sezione-quadrata > *{
+  padding: 5px;
+
+}
+.sezione-quadrata img{
+
+}
+
+
+
 
 @media screen and (max-width:768px) {
   #section-3 ul > li{
