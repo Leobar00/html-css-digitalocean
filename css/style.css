@@ -6,7 +6,11 @@
 body{
   font-size: 15px;
 }
-
+/* .flex{
+ display: flex;
+ justify-content: space-between;
+ align-items:
+} */
 .navbar{
   height: 80px;
   margin-bottom: 0;
@@ -19,6 +23,7 @@ body{
 }
 .burger-menu span{
   color: #0046f9;
+  font-size: 2.2rem;
 }
 nav img{
   width: 180px;
@@ -55,14 +60,18 @@ nav ul li a:hover{
   background-size: cover;
   padding-top: 80px;
 }
-#button-create{
+#section-1 input[type=submit]{
   background-color: #579aff;
   color: white;
-
+  border-radius: 1%;
 }
-#section-1 input:last-of-type{
+#section-1 button{
   color:#6a6a6a;
   background-color: white;
+  width: 98%;
+}
+#section-1 button i{
+  float:left;
 }
 .text-property{
   color: white;
